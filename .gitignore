@@ -1,0 +1,23 @@
+# Python virtual environments and generated Python files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and operating-system files
+.DS_Store
+.vscode/
+.idea/
+
+# Local recovery copy; company.py is the source of truth
+company.py.save
+
+# Never commit secrets
+.env
+.env.*
+!.env.example
